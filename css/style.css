@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* nav start */
+nav{
+    background-color: #02918c;
+}
+
+nav .logo{
+    width: 30%;
+}
+
+nav .menu{
+    width: 70%;
+   text-align: right;
+}
+
+nav .menu li{
+    display: inline-block;
+}
+
+nav .menu li a{
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+}
+
+nav .row{
+    align-items: center;
+}
+/* nav bar ends */
+
+/* banner start */
+#banner{
+    background-image: url(../image/bg-img.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+}
+.bannercnt{
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+#banner .row{
+    height: 728px;
+    align-items: center;
+}
+
+.bannercnt h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+.bannercnt h1{
+    font-size: 68px;
+    letter-spacing:30px ;
+    text-transform: uppercase;
+}
+
+.bannercnt h6{
+    font-weight: 400;
+    font-size: 18px;
+}
+.bannercnt img {
+    padding: 50px 0;
+}
+.bannercnt a{
+    color: black;
+    padding: 20px 40px;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: yellow;
+}
+
+/* banner ends */
+/* about me strt */
+#about{
+    padding-bottom: 150px;
+}
+#about .heading{
+    padding: 94px 0;
+}
+#about h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    text-align: center;
+    padding-bottom: 80px;
+}
+#about h3 span{
+    font-weight: 800;
+    font-size: 23px;
+}
+#about .box{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #7e8287;
+     padding: 36px 0; 
+   
+}
+#about .box i{
+    font-size: 30px;
+    color: #02918c;
+}
+#about .box h2{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 30px 0;
+     color: #7e8287;
+}
+#about .box p{
+    font-size: 11px;
+    font-weight: 800;
+    color: #7e8287;}
+
+#about .box:last-child{
+    border: none;
+}
+
+
+/* about me ends */
+
+/* services section start */
+
+#services{
+    background-image: url(../image/bd3.jpg);
+    height: 730px;
+    background-size: cover;
+}
+#services .heading{
+    padding: 70px 0;
+}
+.left{
+    width: 50%;
+}
+
+#services .heading{
+    text-align: left;
+}
+#services .paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #7e8287;
+}
+#services .service-card{
+    width: 50%;
+    text-align: left;
+    padding: 50px 0;
+}
+
+#services .service-card i{
+    font-size: 30px;
+    color: #02918c;
+}
+.service-card h2{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+.service-card p{
+    color: #7e8287;
+    font-weight: 400;
+    font-size: 11px;
+
+}
+
+/* services section ends*/
+
+/* my work section */
+#mywork .heading{
+    padding-top: 105px;
+    padding-bottom:70px ;
+}
+#mywork .pera{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+text-align: center;
+}
+
+.workcard{
+    width: 25%;
+    position: relative;
+}
+.workcard img{
+    width: 100%;
+    display: block;
+}
+#work{
+    padding: 82px 0;
+}
+.workcard .overlay{
+    position: absolute;
+    inset: 20px 25px;
+    background-color: #02918cc2;
+    text-align: center;
+    padding: 50px 0;
+    visibility: hidden;
+    transition: 0.6s;
+    opacity: 0;
+}
+.overlay h4{
+font-size: 16px;
+font-weight: 800;
+color: #ffffff;
+padding-bottom: 10px;
+}
+
+.overlay p{
+    font-size: 13px;
+    font-weight: 400;
+color: #ffffff;
+padding-bottom: 10px;
+   
+}
+
+#work .workcard:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+    margin-bottom: 0;
+}
+
+
+
+
+/* my work section */
+
+
+
